@@ -1,0 +1,164 @@
+i{
+    font-size: 1rem;
+    margin: 0px 5px 0px 5px;
+}
+
+.user-icon{
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 3px 10px 3px 10px;
+    max-width: 80px;
+}
+
+.hero-section{
+    background-image: url('https://www.maxfosterphotography.com/images/xl/The-Hills-Are-Alive.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 92.5vh;
+    height: 100%;
+    padding: 35px;
+}
+
+
+.heading{
+    font-family: "Roboto";
+    font-weight: 700;
+    color: white;
+
+}
+.sub-heading{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: white;
+}
+
+.search-form{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.input-ele{
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.destination-input-ele{
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 15px 0px 15px 0px;
+}
+
+.check-in-out-input-ele{
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.check-in,
+.check-out{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+
+
+.guest-rooms-input-ele{
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px 15px 0px;
+}
+
+.dropdown{
+    border: none;
+    outline: none;
+}
+
+
+.star-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.rating{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: grey;
+    margin-bottom: 0px;
+    margin-right: 12px;
+}
+
+.night{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+@media (max-width: 500px) {
+    .check-in-out-input-ele{
+        border: solid 1px grey;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .check-in,
+    .check-out{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .destination-input-ele{
+        height: 150px;
+    }
+    
+    .check-in-out-input-ele{
+        margin: 15px 0px 15px 0px;
+        height: 150px;
+    }
+    
+    
+    .guest-rooms-input-ele{
+        height: 150px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .row-container{
+        display: flex;
+        align-items: center;
+    }
+
+    .destination-input-ele{
+        height: 80px;
+    }
+
+    
+    .check-in-out-input-ele{
+        margin: 15px 0px 15px 0px;
+        height: 80px;
+    }
+    
+    
+    .guest-rooms-input-ele{
+        height: 80px;
+    }
+}
